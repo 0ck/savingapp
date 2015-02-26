@@ -1,0 +1,71 @@
+<ion-view view-title="Recherche">
+  <ion-content>
+    <form ng-submit="rechercher()">
+      <div class="list">
+          <div class="list list-inset">
+              <label class="item item-input">
+                  <span class="input-label">Localisation :</span>
+                  <input name="localisationInput" id="localisationInput" placeholder="Entrer le nom d'une ville/lieu" type="text" ng-model="rechercheData.localisation">
+                  
+              </label>
+           </div>
+          <div class="list list-inset">
+              <label class="item item-input item-select">
+                  <span class="input-label">Type :</span>
+                  <select ng-model="rechercheData.type">
+                      <option selected>Appartement</option>
+                      <option>Maison</option>
+                      <option>Grange</option>
+                      <option>Grotte</option>
+                      <option>Trou de souris</option>
+                  </select>
+              </label>
+          </div>
+
+          <div ng-if="type == 'louer'"class="list list-inset">
+              <label class="item item-input item-select">
+                  <span class="input-label">Meuble :</span>
+                  <select ng-model="rechercheData.meuble">
+                      <option>Meuble</option>
+                      <option>Non meuble</option>
+                      <option selected>Peu importe</option>
+                  </select>
+              </label>
+          </div>
+          <div class="list list-inset">
+              <label class="item item-input">
+                  <span class="input-label">Nombre de pieces : </span>
+                  <input placeholder="Nombre de pieces" type="text" ng-model="rechercheData.nbpiece">
+              </label>
+          </div>
+              <div class="list list-inset">
+                  <label class="item item-input">
+                      <span class="input-label">Budget :</span>
+                      <input placeholder="minimum" type="text" ng-model="rechercheData.minbudget">
+                      <input placeholder="maximum" type="text" ng-model="rechercheData.maxbudget">
+                  </label>
+              </div>
+          <div class="list list-inset">
+              <label class="item item-input">
+                  <span class="input-label">Superficie :</span>
+                  <input placeholder="minimum" type="text" ng-model="rechercheData.minsuperficie">
+                  <input placeholder="maximum" type="text" ng-model="rechercheData.maxsuperficie">
+              </label>
+          </div>
+          <div class="list list-inset">
+              <label class="item item-checkbox">
+                  Expertise Selfimmo
+                  <label class="checkbox">
+                      <input type="checkbox" ng-model="rechercheData.expertise">
+                  </label>
+              </label>
+           </div>
+          <div class="button-bar">
+              <button class="button" type="submit" style="margin:10px;">Rechercher</button>
+              <button class="button" style="float:right;margin:10px;">Sauvegarder</button>
+          </div>
+       </div>
+    </form>
+      <button ng-click="getPosition()" class="button icon ion-earth"></button>
+  </ion-content>
+</ion-view>

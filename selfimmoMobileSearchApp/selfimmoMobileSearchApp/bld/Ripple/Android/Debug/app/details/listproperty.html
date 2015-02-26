@@ -1,0 +1,40 @@
+<ion-view view-title="Bien">
+  <ion-content>
+      <div class="list card">
+
+          <div class="item item-avatar">
+              <img src="https://cdn4.iconfinder.com/data/icons/devine_icons/Black/PNG/System%20and%20Internet/Account%20and%20Control.png">
+              <h2>{{value.title}}</h2>
+              <p>{{value.resume}}</p>
+          </div>
+
+          <div class="item item-body">
+              <img class="full-image" src="{{value.img}}">
+              <p>
+                  {{value.content}}
+              </p>
+              <p>
+                  <a href="#" class="subdued">1 Like</a>
+                  <a href="#" class="subdued">5 Comments</a>
+              </p>
+          </div>
+
+          <div class="item tabs tabs-secondary tabs-icon-left">
+              <a class="tab-item" href="#">
+                  <i class="icon ion-social-twitter"></i>
+                  Like
+              </a>
+              <a class="tab-item" href="#">
+                  <i class="icon ion-social-facebook"></i>
+                  Share
+              </a>
+              <a class="tab-item" href="#">
+                  <i class="icon ion-chatbox"></i>
+                  Comment
+              </a>
+              
+          </div>
+
+      </div>
+  </ion-content>
+</ion-view>

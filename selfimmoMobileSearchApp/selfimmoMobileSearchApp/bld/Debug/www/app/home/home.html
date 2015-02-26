@@ -1,0 +1,22 @@
+<ion-view view-title="Home">
+    <ion-content>
+        <div style="margin-left:25%;margin-top:60px;">
+            <a href="#/app/searchform/acheter" class="button button-circle button-flat-primary" style="margin-right:30px;">Acheter</a>
+            <a href="#/app/searchform/louer" class=" button button-circle button-flat-primary" style="margin:10px;">Louer</a>
+        </div>
+        <div style="height:70%;width:97%;margin-left:10px;margin-right:-10px;margin-bottom:90px;position: absolute; bottom: 0px;">
+            <span><b>29</b> bien trouvee a proximitee :</span>
+            <div id="mapCanvas" style="" data-tap-disabled="true"></div>
+        </div>
+    </ion-content>
+            <ion-footer-bar id="footer-bar" align-title="left" class="bar-stable" ng-click="scrollUp()">
+                <div class="buttons">
+                    <button class="button button-icon button-clear ion-chevron-up"></button>
+                </div>
+                <h1 class="title">Mes favoris</h1>
+                <div class="buttons">
+                    <button class="button button-icon button-clear ion-chevron-up"></button>
+                </div>
+            </ion-footer-bar>
+
+</ion-view>

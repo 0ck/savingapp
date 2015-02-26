@@ -1,0 +1,44 @@
+{
+	"HOME_TITLE": "SELFIMMO",
+	"HOME_BTN_BUY": "Acheter",
+	"HOME_BTN_RENT": "Louer",
+	"HOME_INFO_NEXT": " biens trouvés à proximitée :",
+	"HOME_FAVORITES": "Mes favoris",
+
+	"MENU_TITLE": "Mon Compte",
+	"MENU_LOGIN": "Mon Compte SELFIMMO",
+	"MENU_BTN_LOGIN": "Connexion",
+	"MENU_BTN_CREATE": "Créer un compte",
+	"MENU_BTN_LOGIN_OFF": "Déconnexion",
+	"MENU_PROJECTS": "Mes projets d'achat",
+	"MENU_AGENDA": "Mon agenda",
+
+	"FAVORITES_TITLE": "Mes favoris",
+	"FAVORITES_SAVED_RESEARCH": "Recherches sauvegardées",
+	"FAVORITES_SAVED_LIST": "Listes sauvegardées",
+	"FAVORITES_SAVED_PROPERTY": "Biens sauvegardées",
+
+	"SEARCH_TITLE": "Recherche",
+	"SEARCH_LOCALIZATION": "Localisation :",
+	"SEARCH_LOCALIZATION_INPUT": "Entrer le nom d'une ville/lieu",
+	"SEARCH_TYPE": "Type :",
+	"SEARCH_FURNISHED": "Meublé :",
+	"SEARCH_ROOMS": "Nombre de pièces :",
+	"SEARCH_ROOMS_INPUT": "-",
+	"SEARCH_PRICE": "Budget :",
+	"SEARCH_SIZE": "Superficie :",
+	"SEARCH_MIN_INPUT": "Minimum",
+	"SEARCH_MAX_INPUT": "Maximum",
+	"SEARCH_EXPERTISE": "Expertise SELFIMMO",
+	"SEARCH_BTN_SAVE": "Sauvegarder",
+	"SEARCH_BTN_SEARCH": "Rechercher",
+
+	"RESULT_TITLE": "Résultats",
+	"RESULT_TAB_SELECT": "Selection",
+	"RESULT_TAB_MAP": "Carte",
+	"RESULT_TAB_LIST": "Liste",
+	"RESULT_SELECT_YES": "Oui",
+	"RESULT_SELECT_NO": "Non",
+
+	"DETAIL_TITLE": "Détail"
+}

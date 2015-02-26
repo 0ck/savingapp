@@ -1,0 +1,14 @@
+<ion-view view-title="Biens">
+    <ion-content>
+        <ion-scroll direction="y" style="overflow:scroll;">
+            <div class="list" style="margin-top:40px;">
+                <a ng-repeat="listbien in listbiens" class="item item-thumbnail-left" href="#/app/listproperty/{{listbien.id}}">
+                    <img src="{{listbien.img}}">
+                    <h2>{{listbien.title}}</h2>
+                    <p>{{listbien.resume}}</p>
+                </a>
+            </div>
+        </ion-scroll>
+
+    </ion-content>
+</ion-view>

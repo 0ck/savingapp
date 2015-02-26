@@ -1,0 +1,20 @@
+{
+  "changedFilesIos": [
+    "scripts\\angular-translate.js",
+    "app\\result\\resultCard\\resultCardCtrl.js",
+    "app\\menu.html",
+    "app\\result\\resultList\\resultListCtrl.js",
+    "app\\result\\resultMap\\resultMapCtrl.js",
+    "app\\search\\searchCtrl.js",
+    "app\\result\\tabNav.html"
+  ],
+  "deletedFilesIos": [],
+  "addedPluginsIos": [],
+  "deletedPluginsIos": [],
+  "changedFiles": [
+    "app\\result\\resultList\\resultListCtrl.js"
+  ],
+  "deletedFiles": [],
+  "addedPlugins": [],
+  "deletedPlugins": []
+}

@@ -1,0 +1,30 @@
+﻿<ion-view view-title="Biens">
+    <ion-content>
+        <ion-pane no-scroll>
+            <td-cards>
+                <td-card ng-repeat="card in cards" on-destroy="cardDestroyed($index)" on-swipe-left="cardSwipedLeft($index)" on-swipe-right="cardSwipedRight($index)" on-partial-swipe="cardPartialSwipe(amt)" class="card-{{$index}}">
+                    <div class="image" ng-controller="CardCtrl">
+                        <div class="no-text">NOPE</div>
+                        <img ng-src="{{card.img}}">
+                        <div class="yes-text">LIKE</div>
+                    </div>
+                </td-card>
+            </td-cards>
+        </ion-pane>
+    </ion-content>
+
+    <div class="tabs tabs-icon-top">
+        <a class="tab-item" href="#/app/listproperties">
+            <i class="icon ion-document-text"></i>
+            Home
+        </a>
+        <a class="tab-item" href="#/app/cardproperties">
+            <i class="icon ion-images"></i>
+            Cards
+        </a>
+        <a class="tab-item" href="#/app/mapproperties">
+            <i class="icon ion-map"></i>
+            Map
+        </a>
+    </div>
+</ion-view>
